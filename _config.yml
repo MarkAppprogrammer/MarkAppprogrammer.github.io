@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Mark Agib"
-  avatar           : "assets/images/profile.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "assets/images/profile-zoomed.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I like learning about physics, ml, and math."
   location         : "Yorba Linda, CA"
   email            : 
