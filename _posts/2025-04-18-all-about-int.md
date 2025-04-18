@@ -13,7 +13,7 @@ author_profile: false
 
 Integration somehow finds its way everywhere, even after calculus classes. Deep learning, physics, you name it, we integrate it.
 
-# $ \text{All about}\int\text{ntegration} $
+# All About Integration
 
 While I assume most of you know what integration is, here's a brief explanation/review. If you want a full explanation of integration, I would recommend 3Blue1Brown's excellent playlist, the [Essence of calculus](https://youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr&si=YGEAEDvr00VFtibe). 
 For those who want a quick understanding, integration (at least for what we're doing) is the "area under the curve". So, integrating some function would give us the area under that function's curve. 
@@ -28,7 +28,7 @@ $$ \int f(x) dx = \text{F}(x) + \text{C}$$
 
 The only real difference is that when we have no bounds, we have to add a " $+ \text{C}$ " after evaluating the integral, called the constant of integration. Why, you may ask? Because the derivative of any constant is always zero and so we account for the fact that when we undo the derivative of some function, there may have been some constant in that function.
 
-## $ \text{Taking Antiderivatives} $
+## Taking Antiderivatives
 
 For most calculus students, the transition from taking derivatives to undoing them can be hard. The best way I like to imagine it is undoing the rules we learned for differentiating. For example, the power rule, which states:
 
@@ -42,7 +42,7 @@ Each derivative rule has a subsequent undoing rule. U-substitution can be used t
 
 ** Side Note ** Many people often forget what $dx$ means in both the integral and the derivative. You can think of it as infinitesimally small changes in x, which means $\frac{dy}{dx}$ is almost $\frac{\text{infinitesimally small changes in y}}{\text{infinitesimally small changes in x}}$.
 
-## $ \text{Improper Integrals} $
+## Improper Integrals
 
 An improper integral is when we attempt to evaluate an integral where the integrand is undefined at one or more points in the interval, or when one or both of the limits of integration are infinite. There are two main types of improper integrals: ones with discontinuities and infinities. With infinities, we take the limit and we "approach" infinity (whether that be positive or negative) when evaluating. Ex:
 
@@ -54,7 +54,7 @@ $$ \int_{-\infty}^{\infty} f(x) dx = \lim_{a \to -\infty} \int_{a}^{c} f(x) dx +
 
 where $c$ is any chosen number. For discontinuities at the bounds, it's pretty similar. If there is a discontinuity within the interval of integration (at $e$, for example, where $a < e < b$), we simply take the improper integral from $a$ to $e$ and then from $e$ to $b$. It's almost like the above integral, but we choose $c$.
 
-## $ \text{Cool Tricks} $
+## Cool Tricks
 
 The more time you spend integrating, the more shortcuts you will find. Yet beware, too many shortcuts can lead to more mistakes. For example, one cool integration trick I learned from Griffiths' famous Quantum Mechanics textbook is shortcuts when integrating over symmetric intervals. For example, we have an integral over the interval $[-a, a]$. If the function we are integrating is odd (that is $f(-x) = -f(x)$ ) we have:
 
@@ -68,5 +68,5 @@ With those two thought problems, I leave you with. And as they say at integratio
 
 *Extra Credit: explain Tangent half-angle substitution*
 
-## $ \text{References} $
+## References
 - Overlay image from 3blue1Brown [[video](https://youtu.be/rfG8ce4nNh0?si=aRLJ6cdK4dISm0V0)]
