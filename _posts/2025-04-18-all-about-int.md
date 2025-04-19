@@ -66,7 +66,7 @@ $$ \int_{-a}^{a} f(x) dx = 2\int_{0}^{a} f(x) dx$$
 
 With those two thought problems, I leave you with. And as they say at integration bees, "Integrate!".
 
-*Extra Credit: explain Tangent half-angle substitution*
+*Extra Credit: explain Tangent half-angle substitution in the comments*
 
 ## References
 - Overlay image from 3blue1Brown [[video](https://youtu.be/rfG8ce4nNh0?si=aRLJ6cdK4dISm0V0)]
