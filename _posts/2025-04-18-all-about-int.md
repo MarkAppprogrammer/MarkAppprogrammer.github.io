@@ -34,7 +34,7 @@ For most calculus students, the transition from taking derivatives to undoing th
 
 $$ \frac{d}{dx}x^n = n x ^{n - 1}$$ 
 
-Undoing the power rule is a simple as going back to the original function, or in this case $$x^n$$. Essentially, how do we go from $$n x^{n-1}$ to $$x^n$? We multiply by $$\frac{1}{n}$$ to get rid of the $$n$$ and add $1$ to the exponent. So in general:
+Undoing the power rule is a simple as going back to the original function, or in this case $$x^n$$. Essentially, how do we go from $$n x^{n-1}$$ to $$x^n$$? We multiply by $$\frac{1}{n}$$ to get rid of the $$n$$ and add $1$ to the exponent. So in general:
 
 $$ \int x^n dx = \frac{1}{n} x^{n+1} + C$$
 
@@ -56,11 +56,11 @@ where $$c$$ is any chosen number. For discontinuities at the bounds, it's pretty
 
 ## Cool Tricks
 
-The more time you spend integrating, the more shortcuts you will find. Yet beware, too many shortcuts can lead to more mistakes. For example, one cool integration trick I learned from Griffiths' famous Quantum Mechanics textbook is shortcuts when integrating over symmetric intervals. For example, we have an integral over the interval $$[-a, a]$$. If the function we are integrating is odd (that is $$f(-x) = -f(x)$$ ) we have:
+The more time you spend integrating, the more shortcuts you will find. Yet beware, too many shortcuts can lead to more mistakes. For example, one cool integration trick I learned from Griffith's famous Quantum Mechanics textbook is shortcuts when integrating over symmetric intervals. For example, we have an integral over the interval $$[-a, a]$$. If the function we are integrating is odd (that is $$f(-x) = -f(x)$$ ) we have:
 
 $$ \int_{-a}^{a} f(x) dx = 0$$
 
-Yes, I typed that right, the answer is $$0$$. Now before you go and Google the answer, think about what an odd function is (specifically, its end behaviour) and why a symmetric interval. For an even function (that is $$f(-x) = f(x)$$) we have:
+Yes, I typed that right, the answer is $$0$$. Now before you go and Google the answer, think about what an odd function is (specifically, its end behavior) and why a symmetric interval. For an even function (that is $$f(-x) = f(x)$$) we have:
 
 $$ \int_{-a}^{a} f(x) dx = 2\int_{0}^{a} f(x) dx$$
 
@@ -70,3 +70,4 @@ With those two thought problems, I leave you with. And as they say at integratio
 
 ## References
 - Overlay image from 3blue1Brown [[video](https://youtu.be/rfG8ce4nNh0?si=aRLJ6cdK4dISm0V0)]
+- Single Variable Calculus Early Transcendentals James Stewart, Daniel Clegg and Saleem Watson
