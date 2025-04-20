@@ -9,6 +9,7 @@ header:
   overlay_image: /assets/images/integral-notation.png
   overlay_filter: 0.4
 author_profile: false
+classes: wide
 ---
 
 Integration somehow finds its way everywhere, even after calculus classes. Deep learning, physics, you name it, we integrate it.
