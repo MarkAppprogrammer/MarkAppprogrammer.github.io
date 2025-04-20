@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/integral-notation.png
   overlay_image: /assets/images/integral-notation.png
   overlay_filter: 0.4
-author_profile: false
+author_profile: true
 classes: wide
 ---
 
