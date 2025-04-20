@@ -60,7 +60,7 @@ The more time you spend integrating, the more shortcuts you will find. Yet bewar
 
 $$ \int_{-a}^{a} f(x) dx = 0$$
 
-Yes, I typed that right, the answer is $$0$$. Now before you go and Google the answer, think about what an odd function is (specifically, its end behavior) and why a symmetric interval. For an even function (that is $$f(-x) = f(x)$$) we have:
+Yes, I typed that right, the answer is $$0$$. Now before you go and Google why, think about what an odd function is (specifically, its end behavior) and why a symmetric interval. For an even function (that is $$f(-x) = f(x)$$) we have:
 
 $$ \int_{-a}^{a} f(x) dx = 2\int_{0}^{a} f(x) dx$$
 
