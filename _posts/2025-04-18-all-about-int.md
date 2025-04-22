@@ -12,6 +12,7 @@ classes: wide
 comments: true
 share: true
 related: true
+author_profile: true
 ---
 
 Integration somehow finds its way everywhere, even after calculus classes. Deep learning, physics, you name it, we integrate it.
